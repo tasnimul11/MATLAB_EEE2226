@@ -24,6 +24,7 @@ for i = 1:length(x)
     y(i) = ((x(i)-x2)/(x1-x2))*y1 + ((x(i)-x1)/(x2-x1))*y2;         
 
 end
+% SOLVED BY THP
 
 plot(dataX, dataY)
 hold on
